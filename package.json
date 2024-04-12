@@ -1,10 +1,10 @@
 {
   "name": "package-manager-client",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "pmc test": "./src/index.mjs"
+    "pmc": "./src/index.mjs"
   },
   "scripts": {},
   "repository": {

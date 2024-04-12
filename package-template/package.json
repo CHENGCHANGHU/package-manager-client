@@ -1,0 +1,22 @@
+{
+  "name": "<!-- scope-package-name -->",
+  "version": "0.0.0",
+  "description": "<!-- camel-package-name -->",
+  "main": "./lib/cjs-module.cjs",
+  "module": "./lib/es-module.mjs",
+  "types": "./dist/index.d.ts",
+  "author": "Changhu Cheng <changhu.cheng@shopee.com>",
+  "homepage": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "gitlab@git.garena.com:changhu.cheng/mh5-ui.git"
+  },
+  "files": ["lib", "dist", "src", "README.md"],
+  "scripts": {
+    "dev": "webpack --watch --color --progress --node-env=production --mode production -c ./webpack.config.mjs",
+    "build": "webpack --color --progress --node-env=production --mode production -c ./webpack.config.mjs"
+  },
+  "devDependencies": {
+  }
+}

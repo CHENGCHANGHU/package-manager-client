@@ -1,0 +1,5 @@
+{
+  "scope": "scope",
+  "packagePath": "packages",
+  "importer": "src/index.ts"
+}
