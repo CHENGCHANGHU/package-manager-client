@@ -1,0 +1,16 @@
+{
+  "name": "package-manager-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pmc test": "./src/index.mjs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "gitlab@git.garena.com:changhu.cheng/package-manager-client.git"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}
