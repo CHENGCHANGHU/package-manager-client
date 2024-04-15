@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": [
+      "node"
+    ],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": false,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+}

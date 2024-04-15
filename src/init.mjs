@@ -14,8 +14,9 @@ const RootPath = join(__dirname, '..');
 export default async function init({ cwd }) {
   try {
     log('Initializing...');
-    await cp(join(RootPath, 'pmc-template.json'), join(cwd, 'pmc.json'));
-    await cp(join(RootPath, 'webpack-config-template'), join(cwd, 'webpack-config'), { recursive: true });
+    await cp(join(RootPath, 'template', 'pmc.json'), join(cwd, 'pmc.json'));
+    await cp(join(RootPath, 'template', 'tsconfig.json'), join(cwd, 'tsconfig.json'));
+    await cp(join(RootPath, 'template', 'webpack-config'), join(cwd, 'webpack-config'), { recursive: true });
     success('Initialized!', { displace: true });
   } catch (e) {
     console.error(e);

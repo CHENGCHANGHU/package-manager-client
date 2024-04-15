@@ -32,7 +32,7 @@ export default async function create({ params, cwd }) {
       }
       const destinationPath = join(cwd, ...config.packagePath.split('/'), packageName);
   
-      await cp(join(RootPath, 'package-template'), destinationPath, { recursive: true });
+      await cp(join(RootPath, 'template', 'package'), destinationPath, { recursive: true });
     
       let direntQueue = [];
       const dir = await opendir(destinationPath);

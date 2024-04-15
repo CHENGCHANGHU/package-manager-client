@@ -6,7 +6,10 @@
   "bin": {
     "pmc": "./src/index.mjs"
   },
-  "scripts": {},
+  "scripts": {
+    "commit": "sh ./script/shell/commit.sh",
+    "commit-amend": "sh ./script/shell/commit-amend.sh"
+  },
   "repository": {
     "type": "git",
     "url": "gitlab@git.garena.com:changhu.cheng/package-manager-client.git"

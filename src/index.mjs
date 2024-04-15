@@ -18,13 +18,7 @@ const {
 } = parseArgs({
   allowPositionals: true,
   args: process.argv.slice(2),
-  options: {
-    // create: {
-    //   type: 'string',
-    //   short: 'c',
-    //   multiple: true,
-    // }
-  },
+  options: {},
 });
 
 console.log(values);
