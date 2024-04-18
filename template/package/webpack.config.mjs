@@ -26,7 +26,7 @@ export default mergeWithRules({
     filename: 'js/[name].js',
     library: {
       type: 'umd',
-      name: '@shopee/mh5-ui-<!-- package-name -->',
+      name: '<!-- scope-package-name -->',
     },
   },
   resolve: {

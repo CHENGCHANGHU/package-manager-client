@@ -26,7 +26,7 @@ export default mergeWithRules({
     filename: 'js/[name].js',
     library: {
       type: 'umd',
-      name: 'mh5-ui',
+      name: '<!-- scope-name -->',
     },
   },
   resolve: {

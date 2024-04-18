@@ -34,7 +34,7 @@ try {
 async function main() {
   switch (subcommand) {
     case 'init':
-      await init({ cwd: PWD });
+      await init({ params, cwd: PWD });
       break;
     case 'create':
       await create({ params, cwd: PWD });
